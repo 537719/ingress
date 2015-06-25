@@ -3,7 +3,7 @@
 # convertit les url intel map de liens entre portails vers un fichier kml
 #
 # usage :
-# gawk -f url2kml.awk [infile or paste url to consoe] >[outfile.kml]
+# gawk -f url2kml.awk [infile or paste url to console] >[outfile.kml]
 BEGIN {
 	print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 	print "<kml xmlns=\"http://earth.google.com/kml/2.0\">"
